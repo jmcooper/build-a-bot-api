@@ -1,0 +1,29 @@
+{
+  "name": "build-a-bot-server",
+  "version": "1.0.0",
+  "description": "A server used by the Pluralsight Vue.js Fundamentals course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jmcooper/build-a-bot-server.git"
+  },
+  "keywords": [
+    "Vue.js",
+    "funamentals",
+    "training",
+    "api"
+  ],
+  "author": "Jim Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcooper/build-a-bot-server/issues"
+  },
+  "homepage": "https://github.com/jmcooper/build-a-bot-server#readme",
+  "dependencies": {
+    "connect-history-api-fallback": "^2.0.0",
+    "express": "^4.18.2"
+  }
+}
